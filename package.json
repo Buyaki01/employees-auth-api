@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Buyaki01/hello-nodejs#readme",
   "dependencies": {
-    "date-fns": "^2.29.3"
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
