@@ -12,12 +12,20 @@ console.log('Hello...')
 fs.writeFile(path.join(__dirname, 'files', 'reply.txt'), 'Nice to meet you', (err) => {
   if(err) throw err
   console.log('Write operation complete')
+  
+  //Inside of a callback of writeFile
+  fs.appendFile(path.join(__dirname, 'files', 'reply.txt'), '\n\n Nice to meet you too.', (err) => {
+    if(err) throw err
+    console.log('Append operation complete')
+
+    //Inside of a callback of appendFile
+    fs.rename(path.join(__dirname, 'files', 'reply.txt'), path.join(__dirname, 'files', 'newReply.txt'), (err) => {
+      if(err) throw err
+      console.log('Rename operation complete')
+    })
+  })
 })
 
-fs.appendFile(path.join(__dirname, 'files', 'test.txt'), 'Testing text.', (err) => {
-  if(err) throw err
-  console.log('Append operation complete')
-})
 
 //Exit on Uncaught errors
 process.on('uncaughtException', err => {
