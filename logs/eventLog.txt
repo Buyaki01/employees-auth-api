@@ -1,0 +1,1 @@
+20230404	07:05:28	{uuid()	Log event emitted!}
