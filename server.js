@@ -24,6 +24,24 @@ app.get('/hello(.html)?', (req, res, next) => {
   res.send('Hello World!')
 })
 
+//Chaining Route Handler
+const one = (req, res, next) => {
+  console.log('one')
+  next()
+}
+
+const two = (req, res, next) => {
+  console.log('two')
+  next()
+}
+
+const three = (req, res, next) => {
+  console.log('three')
+  res.send('Finished')
+}
+
+app.get('/chain(.html)?', [one, two, three])
+
 app.get('/*', (req, res) => {
   res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))
 })
