@@ -1,0 +1,12 @@
+20230405	07:27:49	{uuid()	/new-page	GET}
+20230405	07:27:49	{uuid()	/css/style.css	GET}
+20230405	07:27:49	{uuid()	/img/img1.jpg	GET}
+20230405	07:27:50	{uuid()	/favicon.ico	GET}
+20230405	07:27:56	{uuid()	/index	GET}
+20230405	07:27:56	{uuid()	/css/style.css	GET}
+20230405	07:28:10	{uuid()	/data/data.txt	GET}
+20230405	07:29:57	{uuid()	/data/data.txt	GET}
+20230405	07:30:10	{uuid()	/data/data.json	GET}
+20230405	07:30:38	{uuid()	/new-page	GET}
+20230405	07:30:38	{uuid()	/css/style.css	GET}
+20230405	07:30:38	{uuid()	/img/img1.jpg	GET}
