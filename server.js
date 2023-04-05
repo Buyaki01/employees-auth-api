@@ -16,4 +16,8 @@ app.get('/old-page(.html)?', (req, res) => {
   res.redirect(301, '/new-page.html') //302 by default
 })
 
+app.get('/*', (req, res) => {
+  res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))
+})
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
