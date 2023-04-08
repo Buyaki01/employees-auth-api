@@ -17,9 +17,10 @@ const corsOptions = {
     }else{
       callback(new Error('Not allowed by CORS'))
     }
-  }
+  },
+  optionsSuccessStatus: 200
 }
-app.use(cors())
+app.use(cors(corsOptions))
 
 //Middleware to handle form data
 app.use(express.urlencoded({ extended: false }))
