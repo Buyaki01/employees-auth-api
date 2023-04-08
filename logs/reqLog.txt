@@ -18,3 +18,5 @@
 20230408	10:08:16	{uuid()	GET	undefined	/css/style.css}
 20230408	10:11:31	{uuid()	OPTIONS	https://www.google.com	/}
 20230408	10:11:31	{uuid()	GET	https://www.google.com	/}
+20230408	10:20:52	{uuid()	OPTIONS	https://www.google.com	/}
+20230408	10:20:52	{uuid()	GET	https://www.google.com	/}
