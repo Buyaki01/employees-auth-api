@@ -1,15 +1,11 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-const logEvents = require('./middleware/logEvents')
+const { logger } = require('./middleware/logEvents')
 const PORT = process.env.PORT || 3500 
 
 //custom middleware logger
-app.use((req, res, next) => {
-  logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, 'reqLog.txt')
-  console.log(`${req.method} ${req.path}`)
-  next()
-})
+app.use(logger)
 
 //Middleware to handle form data
 app.use(express.urlencoded({ extended: false }))
