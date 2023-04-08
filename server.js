@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3500
 app.use(logger)
 
 //Cross Origin Resourse Sharing
+const whitelist = ['https://www.yoursite.com', 'http://127.0.0.1:5500', 'http://localhost:3500']
 app.use(cors())
 
 //Middleware to handle form data
