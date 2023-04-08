@@ -10,3 +10,7 @@
 20230405	07:30:38	{uuid()	/new-page	GET}
 20230405	07:30:38	{uuid()	/css/style.css	GET}
 20230405	07:30:38	{uuid()	/img/img1.jpg	GET}
+20230408	09:45:45	{uuid()	GET	undefined	/}
+20230408	09:45:45	{uuid()	GET	undefined	/css/style.css}
+20230408	09:49:24	{uuid()	GET	undefined	/}
+20230408	09:49:24	{uuid()	GET	undefined	/css/style.css}
