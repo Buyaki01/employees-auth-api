@@ -69,7 +69,7 @@ const three = (req, res, next) => {
 
 app.get('/chain(.html)?', [one, two, three])
 
-app.get('/*', (req, res) => {
+app.all('*', (req, res) => {
   res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))
 })
 

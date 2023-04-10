@@ -42,3 +42,7 @@
 20230410	07:49:35	{uuid()	GET	undefined	/css/style.css}
 20230410	07:51:38	{uuid()	GET	undefined	/}
 20230410	07:51:38	{uuid()	GET	undefined	/css/style.css}
+20230410	08:01:44	{uuid()	GET	undefined	/}
+20230410	08:01:44	{uuid()	GET	undefined	/css/style.css}
+20230410	08:01:50	{uuid()	GET	undefined	/dave}
+20230410	08:01:50	{uuid()	GET	undefined	/css/style.css}
