@@ -96,3 +96,11 @@
 20230410	10:09:12	{uuid()	GET	undefined	/new-page.html}
 20230410	10:09:12	{uuid()	GET	undefined	/css/style.css}
 20230410	10:09:12	{uuid()	GET	undefined	/img/img1.jpg}
+20230410	11:20:50	{uuid()	GET	undefined	/new-page.html}
+20230410	11:20:50	{uuid()	GET	undefined	/css/style.css}
+20230410	11:20:50	{uuid()	GET	undefined	/img/img1.jpg}
+20230410	11:27:35	{uuid()	GET	undefined	/employees}
+20230410	11:29:18	{uuid()	POST	undefined	/employees}
+20230410	11:32:22	{uuid()	PUT	undefined	/employees}
+20230410	11:34:18	{uuid()	GET	undefined	/employees/1}
+20230410	11:34:58	{uuid()	GET	undefined	/employees/1}
