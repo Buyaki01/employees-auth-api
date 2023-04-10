@@ -8,5 +8,11 @@ router.route('/')
   .get((req, res) => {
     res.json(data.employees)
   })
+  .post((req, res) => {
+    res.json({
+      "firstname": req.body.firstname,
+      "lastname": req.body.lastname
+    })
+  })
 
 module.exports = router
