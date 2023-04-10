@@ -26,9 +26,12 @@ app.use(cors(corsOptions))
 //Middleware to handle form data
 app.use(express.urlencoded({ extended: false }))
 
+//built-in middleware for JSON
 app.use(express.json())
 
-app.use(express.static(path.join(__dirname, '/public')))
+//Serve static files
+app.use('/', express.static(path.join(__dirname, '/public')))
+app.use('/subdir', express.static(path.join(__dirname, '/public')))
 
 app.use('/subdir', require('./routes/subdir'))
 
