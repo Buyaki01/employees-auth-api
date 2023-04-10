@@ -27,3 +27,12 @@
 20230408	11:54:23	{uuid()	GET	https://www.google.com	/}
 20230408	11:59:48	{uuid()	OPTIONS	https://www.google.com	/}
 20230408	11:59:48	{uuid()	GET	https://www.google.com	/}
+20230410	06:44:53	{uuid()	OPTIONS	https://ogs.google.com	/}
+20230410	06:44:53	{uuid()	GET	https://ogs.google.com	/}
+20230410	06:54:07	{uuid()	OPTIONS	https://www.google.com	/}
+20230410	06:54:07	{uuid()	GET	https://www.google.com	/}
+20230410	07:02:34	{uuid()	GET	undefined	/}
+20230410	07:02:34	{uuid()	GET	undefined	/css/style.css}
+20230410	07:02:35	{uuid()	GET	undefined	/favicon.ico}
+20230410	07:08:04	{uuid()	GET	undefined	/}
+20230410	07:08:04	{uuid()	GET	undefined	/css/style.css}
