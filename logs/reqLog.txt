@@ -104,3 +104,16 @@
 20230410	11:32:22	{uuid()	PUT	undefined	/employees}
 20230410	11:34:18	{uuid()	GET	undefined	/employees/1}
 20230410	11:34:58	{uuid()	GET	undefined	/employees/1}
+20230410	13:07:40	{uuid()	GET	undefined	/new-page.html}
+20230410	13:07:41	{uuid()	GET	undefined	/css/style.css}
+20230410	13:07:41	{uuid()	GET	undefined	/img/img1.jpg}
+20230410	13:07:44	{uuid()	GET	undefined	/new-page.html}
+20230410	13:07:44	{uuid()	GET	undefined	/css/style.css}
+20230410	13:07:44	{uuid()	GET	undefined	/img/img1.jpg}
+20230410	13:07:51	{uuid()	GET	undefined	/}
+20230410	13:07:51	{uuid()	GET	undefined	/css/style.css}
+20230410	13:07:59	{uuid()	GET	undefined	/subdir/}
+20230410	13:08:26	{uuid()	GET	undefined	/subdir/}
+20230410	13:08:26	{uuid()	GET	undefined	/subdir/css/style.css}
+20230410	13:08:28	{uuid()	GET	undefined	/subdir/}
+20230410	13:08:28	{uuid()	GET	undefined	/subdir/css/style.css}
