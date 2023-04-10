@@ -88,3 +88,11 @@
 20230410	08:56:16	{uuid()	GET	undefined	/subdir/test.html}
 20230410	08:56:43	{uuid()	GET	undefined	/subdir/dave}
 20230410	08:56:43	{uuid()	GET	undefined	/subdir/css/style.css}
+20230410	09:43:48	{uuid()	GET	undefined	/}
+20230410	09:43:48	{uuid()	GET	undefined	/css/style.css}
+20230410	10:08:28	{uuid()	GET	undefined	/new-page}
+20230410	10:08:28	{uuid()	GET	undefined	/css/style.css}
+20230410	10:08:28	{uuid()	GET	undefined	/img/img1.jpg}
+20230410	10:09:12	{uuid()	GET	undefined	/new-page.html}
+20230410	10:09:12	{uuid()	GET	undefined	/css/style.css}
+20230410	10:09:12	{uuid()	GET	undefined	/img/img1.jpg}
