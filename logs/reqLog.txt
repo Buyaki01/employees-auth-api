@@ -122,3 +122,12 @@
 20230411	09:54:51	{uuid()	GET	undefined	/favicon.ico}
 20230411	09:54:54	{uuid()	GET	undefined	/}
 20230411	09:54:54	{uuid()	GET	undefined	/css/style.css}
+20230411	10:05:14	{uuid()	GET	undefined	/employees}
+20230411	10:05:28	{uuid()	GET	undefined	/employees}
+20230411	10:06:47	{uuid()	PUT	undefined	/employees}
+20230411	10:08:05	{uuid()	POST	undefined	/employees}
+20230411	10:09:33	{uuid()	PUT	undefined	/employees}
+20230411	10:10:31	{uuid()	DELETE	undefined	/employees}
+20230411	10:11:08	{uuid()	DELETE	undefined	/employees/1}
+20230411	10:11:25	{uuid()	GET	undefined	/employees/1}
+20230411	10:11:30	{uuid()	GET	undefined	/employees}
