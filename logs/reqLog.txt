@@ -117,3 +117,8 @@
 20230410	13:08:26	{uuid()	GET	undefined	/subdir/css/style.css}
 20230410	13:08:28	{uuid()	GET	undefined	/subdir/}
 20230410	13:08:28	{uuid()	GET	undefined	/subdir/css/style.css}
+20230411	09:54:50	{uuid()	GET	undefined	/subdir/}
+20230411	09:54:50	{uuid()	GET	undefined	/subdir/css/style.css}
+20230411	09:54:51	{uuid()	GET	undefined	/favicon.ico}
+20230411	09:54:54	{uuid()	GET	undefined	/}
+20230411	09:54:54	{uuid()	GET	undefined	/css/style.css}
