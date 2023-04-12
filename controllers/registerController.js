@@ -15,7 +15,8 @@ const handleNewUser = async (req, res) => {
   if(duplicate) return res.sendStatus(409) //Conflict
   try{
     //encrypt the password
-    
+    const hashedPwd = await bcrypt.hash(pwd, 10)
+    // store the new user
   }catch(err){
     res.status(500).json({ 'message': err.message })
   }
