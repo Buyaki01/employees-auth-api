@@ -136,3 +136,6 @@
 20230412	09:38:55	{uuid()	GET	undefined	/favicon.ico}
 20230412	09:39:02	{uuid()	GET	undefined	/register}
 20230412	09:39:03	{uuid()	GET	undefined	/css/style.css}
+20230412	10:14:21	{uuid()	GET	undefined	/register}
+20230412	10:14:46	{uuid()	POST	undefined	/register}
+20230412	10:16:54	{uuid()	POST	undefined	/register}
