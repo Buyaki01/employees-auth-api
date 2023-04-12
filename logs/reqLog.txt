@@ -131,3 +131,8 @@
 20230411	10:11:08	{uuid()	DELETE	undefined	/employees/1}
 20230411	10:11:25	{uuid()	GET	undefined	/employees/1}
 20230411	10:11:30	{uuid()	GET	undefined	/employees}
+20230412	09:38:54	{uuid()	GET	undefined	/}
+20230412	09:38:54	{uuid()	GET	undefined	/css/style.css}
+20230412	09:38:55	{uuid()	GET	undefined	/favicon.ico}
+20230412	09:39:02	{uuid()	GET	undefined	/register}
+20230412	09:39:03	{uuid()	GET	undefined	/css/style.css}
