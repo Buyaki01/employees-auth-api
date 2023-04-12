@@ -12,6 +12,7 @@ const handleLogin = async (req, res) => {
   //Evaluate password
   const match = await bcrypt.compare(pwd, foundUser.password)
   if (match) {
+    //Create JWTs
     res.json({ 'success': `User ${user} is logged in!`})
   }else{
     res.sendStatus(401)

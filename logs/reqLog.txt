@@ -139,3 +139,4 @@
 20230412	10:14:21	{uuid()	GET	undefined	/register}
 20230412	10:14:46	{uuid()	POST	undefined	/register}
 20230412	10:16:54	{uuid()	POST	undefined	/register}
+20230412	10:52:58	{uuid()	POST	undefined	/auth}
