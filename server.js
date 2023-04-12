@@ -1,22 +1,51 @@
-console.log('Hello World!')
-
-console.log(global)
-
-const os = require('os')
+const express = require('express')
+const app = express()
 const path = require('path')
-const math = require('./math')
+const cors = require('cors')
+const corsOptions = require('./config/corsOptions')
+const { logger } = require('./middleware/logEvents')
+const errorHandler = require('./middleware/errorHandler')
+const PORT = process.env.PORT || 3500 
 
-console.log(math.add(2,3))
+//custom middleware logger
+app.use(logger)
 
-console.log(os.type())
-console.log(os.version())
-console.log(os.homedir())
+//Cross Origin Resourse Sharing
+app.use(cors(corsOptions))
 
-console.log(__dirname)
-console.log(__filename)
+//Middleware to handle form data
+app.use(express.urlencoded({ extended: false }))
 
-console.log(path.dirname(__filename))
-console.log(path.basename(__filename))
-console.log(path.extname(__filename))
+//built-in middleware for JSON
+app.use(express.json())
 
-console.log(path.parse(__filename))
+//Serve static files
+app.use('/', express.static(path.join(__dirname, '/public')))
+
+app.use('/', require('./routes/root'))
+app.use('/register', require('./routes/register'))
+app.use('/auth', require('./routes/auth'))
+app.use('/employees', require('./routes/api/employees'))
+
+//Route Handlers
+app.get('/hello(.html)?', (req, res, next) => {
+  console.log('attempted to load hello.html')
+  next()
+}, (req, res) => {
+  res.send('Hello World!')
+})
+
+app.all('*', (req, res) => {
+  res.status(404)
+  if (req.accepts('html')){
+    res.sendFile(path.join(__dirname, 'views', '404.html'))
+  }else if(req.accepts('json')){
+    res.json({ error: "404 Not Found" })
+  }else{
+    res.type('txt').send("404 Not Found")
+  }
+})
+
+app.use(errorHandler)
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
