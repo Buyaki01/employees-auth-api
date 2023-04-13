@@ -148,3 +148,5 @@
 20230413	11:25:11	{uuid()	GET	undefined	/employees}
 20230413	11:25:38	{uuid()	POST	undefined	/auth}
 20230413	11:25:55	{uuid()	GET	undefined	/employees}
+20230413	11:38:34	{uuid()	POST	undefined	/auth}
+20230413	11:39:00	{uuid()	GET	undefined	/employees}
