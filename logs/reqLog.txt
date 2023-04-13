@@ -140,3 +140,11 @@
 20230412	10:14:46	{uuid()	POST	undefined	/register}
 20230412	10:16:54	{uuid()	POST	undefined	/register}
 20230412	10:52:58	{uuid()	POST	undefined	/auth}
+20230413	11:23:16	{uuid()	POST	undefined	/auth}
+20230413	11:24:01	{uuid()	POST	undefined	/auth}
+20230413	11:24:46	{uuid()	POST	undefined	/auth}
+20230413	11:25:00	{uuid()	GET	undefined	/employees}
+20230413	11:25:08	{uuid()	POST	undefined	/auth}
+20230413	11:25:11	{uuid()	GET	undefined	/employees}
+20230413	11:25:38	{uuid()	POST	undefined	/auth}
+20230413	11:25:55	{uuid()	GET	undefined	/employees}
