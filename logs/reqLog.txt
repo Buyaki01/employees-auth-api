@@ -155,3 +155,6 @@
 20230413	14:19:18	{uuid()	GET	undefined	/refresh}
 20230413	14:19:20	{uuid()	GET	undefined	/refresh}
 20230413	14:19:23	{uuid()	GET	undefined	/refresh}
+20230413	15:55:06	{uuid()	POST	undefined	/auth}
+20230413	15:55:54	{uuid()	GET	undefined	/logout}
+20230413	15:56:48	{uuid()	GET	undefined	/refresh}
