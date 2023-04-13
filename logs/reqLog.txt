@@ -150,3 +150,8 @@
 20230413	11:25:55	{uuid()	GET	undefined	/employees}
 20230413	11:38:34	{uuid()	POST	undefined	/auth}
 20230413	11:39:00	{uuid()	GET	undefined	/employees}
+20230413	14:17:53	{uuid()	POST	undefined	/auth}
+20230413	14:19:12	{uuid()	GET	undefined	/refresh}
+20230413	14:19:18	{uuid()	GET	undefined	/refresh}
+20230413	14:19:20	{uuid()	GET	undefined	/refresh}
+20230413	14:19:23	{uuid()	GET	undefined	/refresh}
