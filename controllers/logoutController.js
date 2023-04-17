@@ -29,7 +29,7 @@ const handleLogout = async (req, res) => {
     JSON.stringify(usersDB.users)
   )
 
-  res.clearCookie('jwt', { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 }) //secure: true - only serves on https, add this in production, not in development
+  res.clearCookie('jwt', { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 }) //secure: true - only serves on https, add this in production, not in development
   res.sendStatus(204)
 }
 
