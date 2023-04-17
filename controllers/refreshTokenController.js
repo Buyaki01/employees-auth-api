@@ -25,7 +25,7 @@ const handleRefreshToken = (req, res) => {
       const roles = Object.values(foundUser.roles)
       const accessToken = jwt.sign(
         { 
-          "userInfo": { 
+          "UserInfo": { 
             "username": decoded.username,
             "roles": roles
           }
