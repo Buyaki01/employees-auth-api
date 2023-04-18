@@ -158,3 +158,4 @@
 20230413	15:55:06	{uuid()	POST	undefined	/auth}
 20230413	15:55:54	{uuid()	GET	undefined	/logout}
 20230413	15:56:48	{uuid()	GET	undefined	/refresh}
+20230417	13:54:24	{uuid()	POST	undefined	/auth}
