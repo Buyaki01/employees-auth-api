@@ -159,3 +159,12 @@
 20230413	15:55:54	{uuid()	GET	undefined	/logout}
 20230413	15:56:48	{uuid()	GET	undefined	/refresh}
 20230417	13:54:24	{uuid()	POST	undefined	/auth}
+20230620	13:08:12	{uuid()	POST	undefined	/register}
+20230620	13:12:02	{uuid()	POST	undefined	/register}
+20230620	13:13:41	{uuid()	POST	undefined	/register}
+20230620	13:15:07	{uuid()	POST	undefined	/login}
+20230620	13:15:46	{uuid()	POST	undefined	/login}
+20230620	13:16:26	{uuid()	POST	undefined	/auth}
+20230620	13:17:05	{uuid()	GET	undefined	/employees}
+20230620	13:17:59	{uuid()	POST	undefined	/auth}
+20230620	13:18:19	{uuid()	GET	undefined	/users}
