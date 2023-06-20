@@ -52,4 +52,4 @@ Feel free to check the [issues page](https://github.com/Buyaki01/employees-auth-
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Inspiration: [David Gray](https://github.com/dejwid)
+- Inspiration: [Dave Gray](https://github.com/dejwid)
