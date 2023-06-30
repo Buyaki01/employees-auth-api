@@ -6,7 +6,7 @@ This is the backend of an employees-auth MERN (MongoDB, Express, React, Node.js)
 ## Technologies Used
 The backend of the app was built using the following technologies:
 
-- **MongoDB**: A document-oriented database used for storing the employees' data
+- **MongoDB**: A document-oriented database used for storing data for the application
 - **Express**: A web application framework used for building the app's backend
 - **Node.js**: A JavaScript runtime environment used for running the app's backend
 
@@ -23,16 +23,18 @@ To get started with this app, follow these steps:
     cd employees-auth-api
     ```
 
-3. Create a .env file: Add MONGO_URL from the MongoDB, Add the ACCESS_TOKEN_SECRET and the REFRESH_TOKEN_SECRET
+3. Create a .env file:
+   * Add DATABASE_URI from your MongoDB,
+   * Add your ACCESS_TOKEN_SECRET and your REFRESH_TOKEN_SECRET
 
-4. Install dependencies using: 
+5. Install dependencies using: 
     ```bash 
     npm install
     ```
 
-5. Start the app using: 
+6. Start the app using: 
     ```bash 
-    node server.js
+    node server
     ``` 
 
 ## Author
@@ -52,4 +54,4 @@ Feel free to check the [issues page](https://github.com/Buyaki01/employees-auth-
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Inspiration: [Dave Gray](https://github.com/dejwid)
+- Inspiration: [Dave Gray](https://www.youtube.com/@DaveGrayTeachesCode)
