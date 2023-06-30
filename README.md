@@ -6,7 +6,7 @@ This is the backend of an employees-auth MERN (MongoDB, Express, React, Node.js)
 ## Technologies Used
 The backend of the app was built using the following technologies:
 
-- **MongoDB**: A document-oriented database used for storing accommodation data
+- **MongoDB**: A document-oriented database used for storing the employees' data
 - **Express**: A web application framework used for building the app's backend
 - **Node.js**: A JavaScript runtime environment used for running the app's backend
 
